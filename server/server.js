@@ -415,7 +415,7 @@ app.use((err, req, res, next) => {
 if (require.main === module) {
   app.listen(PORT, () => {
     console.log(`CampusConnect running at http://localhost:${PORT}`)
-    console.log('Demo logins:  student  CC2024CS1042 / Student@123   |   admin  admin@campus.edu / Admin@123')
+    
   })
 }
 module.exports = app
